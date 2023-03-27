@@ -37,6 +37,19 @@ td{
    padding-left: 40%;
    min-height: 40px;
 }
+tr:nth-of-type(odd){
+   background-color: rgb(255,235,178);
+   border: 2px solid gray;
+   
+}
+td::before{
+   content: attr(data-date);
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 40%;
+   padding: auto;
+}
 }
 
 
