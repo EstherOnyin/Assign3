@@ -22,7 +22,7 @@
    table, tbody, tr, td, th, caption{
       display: block;
    }
-   thead,h1{
+   th,h1{
       display: none;
    }
    caption{
@@ -45,11 +45,11 @@ tr:nth-of-type(odd){
 }
 td::before{
    content: attr(data-date);
-   position: absolute;
+   position: absolute(0,0);
    left: 0px;
    top: 0px;
    width: 40%;
-   padding: auto;
+   padding: 5px;
 }
 }
 
@@ -69,7 +69,7 @@ table{
    border-style: double;
    border-width: 6px;
    border-color: rgb(154, 64, 3);
-   border-collapse: collapse;
+   border-collapse: separate;
    margin-top: 20px;
    margin-bottom: 20px;
    margin-left: auto;
@@ -111,9 +111,5 @@ caption{
 
 thead{
    background-color: rgb(154, 64, 3);
-   color: white;
-}
-
-
-   
+   color: white;} 
 }
