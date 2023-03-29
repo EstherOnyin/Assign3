@@ -15,6 +15,7 @@
 
 /* ===============================
    Mobile Styles: 0px to 640px 
+   
    ===============================
 */
 @media only screen and (max-width: 640px){
@@ -59,6 +60,15 @@ td::before{
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
-@media only screen and (max-width: 640px){
+@media only screen and (min-width: 641px){
+
+table{
+   background-image: url(lht_photo1.png);
+   width: 40%;
+   border-style: double 6px;
+   border-width: 6px;
+   border-color: rgb(154, 64, 3);
+
+}
    
 }
